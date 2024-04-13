@@ -3,43 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>What's the Weather?</title>
   </head>
   <body>
-    <header>
-      <img src="links/my-logo.png" alt="Adrianne Dean logo" width="100" />
-      <form>
-        <input type="search" placeholder="Enter a city" required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <h1>City Name</h1>
-      <h2>Date | Time</h2>
-      <div>
-        00
-        <br />
-        00° | 00°
-      </div>
-      <div>
-        <p>🌤️</p>
-      </div>
-      <div>
-        <p>💨 00 mph</p>
-        <p>☂ 00 %</p>
-        <p>💧 00 %</p>
-      </div>
-    </main>
-    <footer>
-      This project is coded by
-      <a href="https://github.com/amariedean" target="_blank">Adrianne Dean</a>,
-      is open-sourced on
-      <a href="https://github.com/amariedean/WhatsTheWeather" target="_blank"
-        >GitHub</a
-      >, and hosted on
-      <a href="https://whatstheweather-app.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
+    <div class="weather-app">
+      <header>
+        <img src="links/my-logo.png" alt="Adrianne Dean logo" width="100" />
+        <form>
+          <input type="search" placeholder="Enter a city" required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <h1>City Name</h1>
+        <h2>Date | Time</h2>
+        <div>
+          00
+          <br />
+          00° | 00°
+        </div>
+        <div>
+          <p>🌤️</p>
+        </div>
+        <div>
+          <p>💨 00 mph</p>
+          <p>☂ 00 %</p>
+          <p>💧 00 %</p>
+        </div>
+      </main>
+      <footer>
+        This project is coded by
+        <a href="https://github.com/amariedean" target="_blank">Adrianne Dean</a
+        >, is open-sourced on
+        <a href="https://github.com/amariedean/WhatsTheWeather" target="_blank"
+          >GitHub</a
+        >, and hosted on
+        <a href="https://whatstheweather-app.netlify.app/" target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
   </body>
 </html>
