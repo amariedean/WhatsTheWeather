@@ -76,8 +76,14 @@ footer {
 }
 
 .weather-app-icon {
-  padding: 20px 0px;
-  width: 100px;
+  padding: 25px 0px;
+  width: 75px;
+  text-align: center;
+}
+
+.weather-app-details {
+  font-size: 14px;
+  font-weight: 300;
 }
 
 .current-temp {
