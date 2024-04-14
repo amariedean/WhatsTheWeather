@@ -76,23 +76,23 @@ footer {
 }
 
 .weather-app-icon {
-  padding: 25px 0px;
-  width: 75px;
+  width: 100px;
   text-align: center;
 }
 
 .weather-app-details {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
+  color: #ca5682;
 }
 
-.current-temp {
+.weather-app-temperature {
   font-size: 100px;
   line-height: 105px;
   font-weight: 700;
 }
 
-.day-temps {
+.weather-app-hi-low {
   text-align: center;
   display: block;
   margin: 0 auto;
