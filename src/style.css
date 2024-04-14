@@ -1,12 +1,121 @@
 body {
-  background-color: #f9f7fe;
+  background-color: #d9dede;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-size: 42px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 700;
+  margin: 10px 0px 5px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 16.5px;
+  font-weight: 300;
+  margin: 5px 0px 30px;
+  color: #ca5682;
+}
+
+a {
+  color: #ca5682;
+  font-weight: 400;
+}
+
+main {
+  padding: 30px;
+}
+
+footer {
+  text-align: center;
+  font-size: 10.5px;
+  font-weight: 300;
+}
+
+.my-logo {
+  width: 80px;
+  display: block;
+  margin: 0px auto;
+  padding-bottom: 15px;
 }
 
 .weather-app {
   background-color: #fff;
-  max-width: 620px;
+  max-width: 600px;
   margin: 50px auto;
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
+.search-form-input {
+  background-color: #eaefef;
+  border: none;
+  border-radius: 6px;
+  width: 80%;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+
+.search-form-button {
+  background: #54afab;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16.5px;
+  width: 19%;
+}
+
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-app-icon {
+  padding: 20px 0px;
+  width: 100px;
+}
+
+.current-temp {
+  font-size: 100px;
+  line-height: 105px;
+  font-weight: 700;
+}
+
+.day-temps {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-weight: 300;
+  font-size: 20px;
+  color: #ca5682;
+}
+
+.weather-metric-data {
+  font-size: 32px;
+  line-height: 45px;
+  padding: 25px 0px;
+}
+
+.qi-2208,
+.qi-2120 {
+  width: 25px;
+  height: 25px;
+  color: #000;
+}
+
+.weather-metric {
+  font-size: 16px;
+  font-weight: 300;
+  color: #ca5682;
+}
+
+.vertical-bar {
+  font-weight: 600;
+  color: #000;
+  padding: 0px 4px;
 }
