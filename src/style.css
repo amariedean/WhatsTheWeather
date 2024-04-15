@@ -71,15 +71,46 @@ footer {
   width: 19%;
 }
 
+sup {
+  position: relative;
+  left: 2px;
+  font-size: 1%;
+  color: #ca5682;
+}
+
 .weather-app-data {
   display: flex;
   justify-content: space-between;
   max-height: 105px;
+  margin: 0px 0px 60px;
+}
+
+.weather-app-forecast {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  max-height: 100px;
+}
+
+.week-days {
+  padding: 0px;
+  height: 90px;
+}
+
+.week-day-temperatures {
+  margin: 0px;
 }
 
 .icon {
   width: 100px;
   height: 100px;
+}
+
+.forecast-icon {
+  width: 80px;
+  height: 80px;
 }
 
 .weather-app-conditions {
