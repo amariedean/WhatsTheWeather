@@ -10,17 +10,20 @@ function refreshWeather(response) {
   let dateElement = document.querySelector("#date");
   let time = new Date(response.data.time * 1000);
   let date = new Date();
-
-  console.log(response.data);
+  let iconElement = document.querySelector("#icon");
 
   cityElement.innerHTML = response.data.city;
-
   dateElement.innerHTML = formatDate(date);
   timeElement.innerHTML = formatTime(time);
   descriptionElement.innerHTML = response.data.condition.description;
   humidityElement.innerHTML = response.data.temperature.humidity;
   windElement.innerHTML = Math.round(wind);
   temperatureElement.innerHTML = Math.round(temperature);
+  iconElement.innerHTML = `<img
+                src="${response.data.condition.icon_url}"
+                alt="few clouds"
+                class="weather-app-icon"
+              />`;
 }
 
 function formatDate(date) {

@@ -32,6 +32,7 @@ footer {
   text-align: center;
   font-size: 10.5px;
   font-weight: 300;
+  margin: 20px 0px 0px;
 }
 
 .my-logo {
@@ -73,23 +74,32 @@ footer {
 .weather-app-data {
   display: flex;
   justify-content: space-between;
+  max-height: 105px;
 }
 
-.weather-app-icon {
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+.weather-app-conditions {
   text-align: center;
+  text-transform: capitalize;
+  width: 100px;
+  height: 100px;
 }
 
 .weather-app-details {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 300;
   color: #ca5682;
+  padding: 0px;
 }
 
 .weather-app-temperature {
   font-size: 115px;
-  line-height: 100px;
+  line-height: 120px;
   font-weight: 700;
-  padding: 25px 0px;
 }
 
 .weather-app-hi-low {
