@@ -45,7 +45,7 @@ footer {
 .weather-app {
   background-color: #fff;
   max-width: 600px;
-  margin: 50px auto;
+  margin: 30px auto;
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
@@ -81,8 +81,70 @@ sup {
 .weather-app-data {
   display: flex;
   justify-content: space-between;
-  max-height: 105px;
-  margin: 0px 0px 60px;
+  margin: 0px 0px 30px;
+}
+
+.weather-app-conditions {
+  text-align: center;
+  text-transform: capitalize;
+  width: 100px;
+  height: 100px;
+  max-height: 100px;
+  position: relative;
+  top: -25px;
+}
+
+.weather-app-details {
+  font-size: 17px;
+  font-weight: 300;
+  color: #ca5682;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+.weather-app-temperature {
+  font-size: 115px;
+  line-height: 100px;
+  font-weight: 700;
+  height: 125px;
+}
+
+.imperial-unit {
+  position: relative;
+  top: -60px;
+  font-size: 28px;
+  font-weight: 300;
+  color: #ca5682;
+}
+
+.weather-metric-data {
+  font-size: 32px;
+  line-height: 42px;
+  position: relative;
+  top: 3px;
+}
+
+/* wind + humidity icons */
+.qi-2208,
+.qi-2120 {
+  width: 25px;
+  height: 25px;
+  color: #000;
+}
+
+.weather-metric {
+  font-size: 17px;
+  font-weight: 300;
+  color: #ca5682;
+}
+
+.vertical-bar {
+  font-weight: 600;
+  color: #000;
+  padding: 0px 4px;
 }
 
 .weather-app-forecast {
@@ -103,64 +165,7 @@ sup {
   margin: 0px;
 }
 
-.icon {
-  width: 100px;
-  height: 100px;
-}
-
 .forecast-icon {
   width: 80px;
   height: 80px;
-}
-
-.weather-app-conditions {
-  text-align: center;
-  text-transform: capitalize;
-  width: 100px;
-  height: 100px;
-}
-
-.weather-app-details {
-  font-size: 17px;
-  font-weight: 300;
-  color: #ca5682;
-}
-
-.weather-app-temperature {
-  font-size: 115px;
-  line-height: 120px;
-  font-weight: 700;
-}
-
-.imperial-unit {
-  position: relative;
-  top: -60px;
-  left: 4px;
-  font-size: 28px;
-  font-weight: 300;
-  color: #ca5682;
-}
-
-.weather-metric-data {
-  font-size: 32px;
-  line-height: 45px;
-}
-
-.qi-2208,
-.qi-2120 {
-  width: 25px;
-  height: 25px;
-  color: #000;
-}
-
-.weather-metric {
-  font-size: 18px;
-  font-weight: 300;
-  color: #ca5682;
-}
-
-.vertical-bar {
-  font-weight: 600;
-  color: #000;
-  padding: 0px 4px;
 }
