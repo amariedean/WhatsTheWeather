@@ -76,20 +76,20 @@ footer {
 }
 
 .weather-app-icon {
-  width: 100px;
   text-align: center;
 }
 
 .weather-app-details {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 300;
   color: #ca5682;
 }
 
 .weather-app-temperature {
-  font-size: 100px;
-  line-height: 105px;
+  font-size: 115px;
+  line-height: 100px;
   font-weight: 700;
+  padding: 25px 0px;
 }
 
 .weather-app-hi-low {
@@ -104,7 +104,6 @@ footer {
 .weather-metric-data {
   font-size: 32px;
   line-height: 45px;
-  padding: 25px 0px;
 }
 
 .qi-2208,
