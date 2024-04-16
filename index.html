@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>What's the Weather?</title>
+    <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>What's the Weather?</title>
   </head>
   <body>
     <div class="weather-app">
@@ -86,68 +86,7 @@
             <span class="weather-metric">%</span>
           </div>
         </div>
-        <div class="weather-app-forecast">
-          <div class="week-days">
-            <img
-              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"
-              alt="rain day"
-              class="forecast-icon"
-            />
-            <p class="week-day-temperatures">
-              <span>00<sup>°F</sup></span>
-              <span class="vertical-bar">|</span>
-              <span>00<sup>°F</sup></span>
-            </p>
-          </div>
-          <div class="week-days">
-            <img
-              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"
-              alt="rain day"
-              class="forecast-icon"
-            />
-            <p class="week-day-temperatures">
-              <span>00<sup>°F</sup></span>
-              <span class="vertical-bar">|</span>
-              <span>00<sup>°F</sup></span>
-            </p>
-          </div>
-          <div class="week-days">
-            <img
-              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"
-              alt="rain day"
-              class="forecast-icon"
-            />
-            <p class="week-day-temperatures">
-              <span>00<sup>°F</sup></span>
-              <span class="vertical-bar">|</span>
-              <span>00<sup>°F</sup></span>
-            </p>
-          </div>
-          <div class="week-days">
-            <img
-              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"
-              alt="rain day"
-              class="forecast-icon"
-            />
-            <p class="week-day-temperatures">
-              <span>00<sup>°F</sup></span>
-              <span class="vertical-bar">|</span>
-              <span>00<sup>°F</sup></span>
-            </p>
-          </div>
-          <div class="week-days">
-            <img
-              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"
-              alt="rain day"
-              class="forecast-icon"
-            />
-            <p class="week-day-temperatures">
-              <span>00<sup>°F</sup></span>
-              <span class="vertical-bar">|</span>
-              <span>00<sup>°F</sup></span>
-            </p>
-          </div>
-        </div>
+        <div class="weather-forecast" id="forecast"></div>
       </main>
       <footer>
         This project was coded by

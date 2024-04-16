@@ -32,7 +32,6 @@ footer {
   text-align: center;
   font-size: 10.5px;
   font-weight: 300;
-  margin: 20px 0px 0px;
 }
 
 .my-logo {
@@ -45,7 +44,7 @@ footer {
 .weather-app {
   background-color: #fff;
   max-width: 600px;
-  margin: 30px auto;
+  margin: 10px auto;
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
@@ -71,17 +70,10 @@ footer {
   width: 19%;
 }
 
-sup {
-  position: relative;
-  left: 2px;
-  font-size: 1%;
-  color: #ca5682;
-}
-
 .weather-app-data {
   display: flex;
   justify-content: space-between;
-  margin: 0px 0px 30px;
+  margin: 0px 0px 50px;
 }
 
 .weather-app-conditions {
@@ -91,11 +83,11 @@ sup {
   height: 100px;
   max-height: 100px;
   position: relative;
-  top: -25px;
+  top: -15px;
 }
 
 .weather-app-details {
-  font-size: 17px;
+  font-size: 12px;
   font-weight: 300;
   color: #ca5682;
 }
@@ -109,7 +101,6 @@ sup {
   font-size: 115px;
   line-height: 100px;
   font-weight: 700;
-  height: 125px;
 }
 
 .imperial-unit {
@@ -142,30 +133,43 @@ sup {
 }
 
 .vertical-bar {
-  font-weight: 600;
+  font-weight: 500;
   color: #000;
   padding: 0px 4px;
 }
 
-.weather-app-forecast {
+/* 5-DAY FORECAST */
+.weather-forecast {
   display: flex;
   justify-content: space-between;
   font-size: 14px;
   font-weight: 300;
   text-align: center;
-  max-height: 100px;
+  margin: 0px 0px 20px;
 }
 
-.week-days {
-  padding: 0px;
-  height: 90px;
+.weather-forecast-day {
+  display: block;
 }
 
-.week-day-temperatures {
-  margin: 0px;
+.weather-forecast-date {
+  font-weight: 400;
+  color: #54afab;
+  text-align: center;
 }
 
-.forecast-icon {
+.weather-forecast-temperatures {
+  margin-top: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.weather-forecast-temperature {
+  padding: 0 5px;
+}
+
+.weather-forecast-icon {
   width: 80px;
   height: 80px;
 }
